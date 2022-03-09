@@ -253,114 +253,28 @@
 // }
 
 
-// Array25
+// =====================================array 24
 
-/*
-let newArray = [3, 9, 27, 81, 243];
-let a = Math.floor(newArray[1] / newArray[0]);
-let count = 0;
-for(let i = 1; i < newArray.length; i++){
-  if(newArray[i] == newArray[i - 1] * a){
-    count += 0;
-  } else{
-    count++;
-    break;
-  }
-}
-if(count == 0){
-  console.log(a);
-} else{
-  console.log(0);
-}
-*/
 
-// Array26
+// let arr = [3, 9, 27, 81, 243];
+// let a = Math.floor(arr[1] / arr[0]);
+// let count = 0;
+// for(let i = 1; i < arr.length; i++){
+//   if(arr[i] == arr[i - 1] * a){
+//     count += 0;
+//   } else{
+//     count++;
+//     break;
+//   }
+// }
+// if(count == 0){
+//   console.log(a);
+// } else{
+//   console.log(0);
+// }
 
-/*
-let newArray = [2, 1, 2, 1, 2, 1];
-let count = 0;
-let i = 0;
-if(newArray[0] % 2 == 0){
-  for(let j = 0, i = 1; j < newArray.length; j += 2, i += 2){
-    if(newArray[j] % 2 == 0){
-      count += 0;
-    } else{
-      count = j;
-      break;
-    }
-    if(newArray[i] % 2 != 0){
-      count += 0;
-    } else{
-      count = i;
-      break;
-    }
-  }
-} else{
-  for(let j = 0, i = 1; j < newArray.length; j += 2, i += 2){
-    if(newArray[j] % 2 != 0){
-      count += 0;
-    } else{
-      count = j;
-      break;
-    }
-    if(newArray[i] % 2 == 0){
-      count += 0;
-    } else{
-      count = i;
-      break;
-    }
-  }
-}
-if(count == 0){
-  console.log(0);
-} else{
-  console.log(count);
-}
-*/
 
-// Array27
 
-/*
-let newArray = [-1, 2, -2, 3, -3, 4];
-let count = 0;
-let j = 0;
-if(newArray[0] < 0){
-  for(let i = 0, j = 1; i < newArray.length; i += 2, j += 2){
-    if(newArray[i] < 0){
-      count += 0;
-    } else{
-      count = i;
-      break;
-    }
-    if(newArray[j] > 0){
-      count += 0;
-    } else{
-      count = j;
-      break;
-    }
-  }
-} else{
-  for(let i = 0, j = 1; i < newArray.length; i += 2, j += 2){
-    if(newArray[i] > 0){
-      count += 0;
-    } else{
-      count = i;
-      break;
-    }
-    if(newArray[j] < 0){
-      count += 0;
-    } else{
-      count = j;
-      break;
-    }
-  }
-}
-if(count == 0){
-  console.log(0);
-} else{
-  console.log(count);
-}
-*/
 
 // =====================================array 28
 
@@ -377,12 +291,12 @@ if(count == 0){
 
 // =====================================array 29
 
-let arr = [22, 43, 11, 5, 6, 7, 11, 31, 12];
-let newArr = [];
+// let arr = [22, 43, 11, 5, 6, 7, 11, 31, 12];
+// let newArr = [];
  
-for(let i = 0; i < arr.length; i++){
-  if(i % 2 != 0){
-    newArr[newArr.length] = arr[i];
-  }
-}
-console.log(Math.max(...newArr));
+// for(let i = 0; i < arr.length; i++){
+//   if(i % 2 != 0){
+//     newArr[newArr.length] = arr[i];
+//   }
+// }
+// console.log(Math.max(...newArr));
