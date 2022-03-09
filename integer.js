@@ -253,7 +253,7 @@
 // }
 
 
-// =====================================array 24
+// =====================================array 25
 
 
 // let arr = [3, 9, 27, 81, 243];
@@ -272,6 +272,37 @@
 // } else{
 //   console.log(0);
 // }
+
+
+// =====================================array 26
+
+let arr = [1,2,1,2,1,2,1,2]
+let natija = true;
+
+if (arr[0] <0){
+ for (let i=0; i<=arr.length; i++) {
+    if ( i %2 ==0 && arr[i] %2==0){
+        console.log("0");
+        break;
+    }
+    else if (i %2 == 1 && arr[i] % 2==1){
+        console.log(i);
+        break;
+    }
+ }
+}
+ else {
+    for (let i=0; i<=arr.length; i++) {
+        if ( i %2 ==0 && arr[i] %2==0){
+            console.log("0");
+            break;
+        }
+        else if (i %2 == 1 && arr[i] %2==1){
+            console.log(i);
+            break;
+        }
+     }
+}
 
 
 
