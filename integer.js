@@ -276,33 +276,33 @@
 
 // =====================================array 26
 
-let arr = [1,2,1,2,1,2,1,2]
-let natija = true;
+// let arr = [1,2,1,2,1,2,1,2]
+// let natija = true;
 
-if (arr[0] <0){
- for (let i=0; i<=arr.length; i++) {
-    if ( i %2 ==0 && arr[i] %2==0){
-        console.log("0");
-        break;
-    }
-    else if (i %2 == 1 && arr[i] % 2==1){
-        console.log(i);
-        break;
-    }
- }
-}
- else {
-    for (let i=0; i<=arr.length; i++) {
-        if ( i %2 ==0 && arr[i] %2==0){
-            console.log("0");
-            break;
-        }
-        else if (i %2 == 1 && arr[i] %2==1){
-            console.log(i);
-            break;
-        }
-     }
-}
+// if (arr[0] %2==1){
+//  for (let i=0; i<=arr.length; i++) {
+//     if ( i %2 ==0 && arr[i] %2==0){
+//         console.log("0");
+//         break;
+//     }
+//     else if (i %2 == 1 && arr[i] % 2==1){
+//         console.log(i);
+//         break;
+//     }
+//  }
+// }
+//  else {
+//     for (let i=0; i<=arr.length; i++) {
+//         if ( i %2 ==0 && arr[i] %2==0){
+//             console.log("0");
+//             break;
+//         }
+//         else if (i %2 == 1 && arr[i] %2==1){
+//             console.log(i);
+//             break;
+//         }
+//      }
+// }
 
 
 
@@ -320,6 +320,38 @@ if (arr[0] <0){
 // console.log(Math.min(...newArr));
 
 
+// =====================================array 27
+
+// let arr = [-2, 5, -10, 12, 3, -4, -5]
+// let natija = 0;
+
+// if (arr[0] <0){
+//  for (let i=0; i<=arr.length; i++) {
+//     if ( i %2 ==0 && arr[i] > 0){
+//         natija = i;
+//         break;
+//     }
+//     else if (i %2 == 1 && arr[i] <0){
+//         natija = i;
+//         break;
+//     }
+//  }
+// }
+//  else {
+//     for (let i=0; i<=arr.length; i++) {
+//         if ( i %2 ==0 && arr[i] < 0){
+//             natija = i;
+//             break;
+//         }
+//         else if (i %2 == 1 && arr[i] >0){
+//             natija = i;
+//             break;
+//         }
+//      }
+// }
+// console.log(natija);
+
+
 // =====================================array 29
 
 // let arr = [22, 43, 11, 5, 6, 7, 11, 31, 12];
@@ -331,3 +363,93 @@ if (arr[0] <0){
 //   }
 // }
 // console.log(Math.max(...newArr));
+
+// =====================================array 51
+
+// let a = [1, 2, 3, true]
+// let b = [2, 5, 6, null]
+// let newTemp = []
+
+// for (let i =0; i<a.length; i++) {
+//         newTemp[i] = a[i];
+//         a[i] = b[i];
+//         b[i] = newTemp[i]   
+// }
+// console.log(a, b);
+
+
+// =====================================array 52
+
+// let a = [22, 43, 11, 5];
+// let b = []
+// for (let i=0; i<a.length; i++) {
+//     if (a.length <=5) {
+//         b[b.length] =2 * a[i];
+//     }
+//         else {
+//             b[b.length] = a[i] /2 
+//         }
+// }
+// console.log(b);
+
+// =====================================array 54
+
+// let a = [22, 43, 11, 5, 42, 8, 6];
+// let b = []
+// let count = 0
+
+// for (let i=0; i<a.length; i++) {
+//     if (a[i] % 2==0) {
+//         b[b.length] = a[i];
+//         count++
+//     }
+// }
+// console.log(b, count);
+
+// =====================================array 55
+
+
+// let a = [22, 43, 11, 5, 42, 8, 6,1,11, 23, 25, 20];
+// let b = []
+// let count = 0
+
+// for (let i=1; i<a.length; i++) {
+//     if (i%2==1){
+//     b[b.length]= a[i]
+//     count ++;
+//     }
+// }
+// console.log(b, count);
+
+
+// =====================================array 56
+
+// let a = [22, 43, 11, 5, 42, 8, 6,1,11, 23, 25, 20];
+// let b = []
+// let count = 0
+
+// for (let i=1; i<a.length; i++) {
+//     if (i%3==0){
+//     b[b.length]= a[i]
+//     count ++;
+//     }
+// }
+// console.log(b, count);
+
+// =====================================array 57
+
+// let a = [22, 43, 11, 5, 42, 8, 6,1,11, 23, 25, 20];
+// let b = []
+
+// for (let i=0; i<a.length; i++) {
+//     console.log(a[i]);
+//     i+=2;
+// }
+// for (let i=1; i<a.length; i++) {
+//     console.log(a[i]);
+//     i+=2;
+// }
+
+
+// =====================================array 58
+
